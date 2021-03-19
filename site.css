@@ -1,0 +1,96 @@
+
+body{
+    background:url(images/bg-desktop.svg);
+    background-color: rgb(103, 75, 175) ;
+
+}
+
+
+
+h1{
+    color:  white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    min-width: 35vw;
+}
+
+p{
+    color: white;
+    font-size: 1.3em;
+    margin: auto;
+}
+
+
+/*          */
+
+
+   
+
+
+img{
+    width: 100%;
+    max-width: 70vw;
+    min-width: 40vw;
+    height:auto;
+   padding-left:10vw ;
+    transform: translateY(7vh);
+    
+
+} 
+
+
+.desc{
+    transform: translateY(15vh);
+    
+    max-width: 60vw;
+
+    justify-content: center;
+    
+
+}
+
+
+.flex{
+    display:grid;
+    grid-gap: 7vw;
+    grid-template-columns: repeat(auto-fit, 450px);
+    justify-content: space-around;
+    transform: translateY(4vh);
+    
+}
+
+
+
+
+
+
+.btn{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    color:  hsl(300, 69%, 71%);
+    margin-top: 2vh;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 375px){
+    
+      .desc{
+          padding-left: 30vw;
+          text-align: center;
+        
+      }
+
+      img{
+          padding-left:25vw ;
+          text-align: center;
+          justify-content: center;
+      }
+}
+
+
